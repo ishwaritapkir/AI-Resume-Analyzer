@@ -1,15 +1,24 @@
-# AI Resume Analyzer
+# AI Resume Analyzer 🚀
 
-This project analyzes resumes using Python and NLP.
+An AI-powered resume analyzer built using Python and Streamlit.
 
 ## Features
-- PDF Resume Upload
+- Resume PDF Upload
 - Skill Detection
-- Resume Text Extraction
-- Streamlit UI
+- ATS Score Analysis
+- Missing Skills Detection
+- Resume Suggestions
+- Analytics Dashboard
 
 ## Technologies Used
 - Python
 - Streamlit
 - PyPDF2
 - NLP
+- matplotlib
+
+## How to Run
+
+pip install -r requirements.txt
+
+streamlit run app.py
